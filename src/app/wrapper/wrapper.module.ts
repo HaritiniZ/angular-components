@@ -12,6 +12,13 @@ import { FooterComponent } from './wrapper/footer/footer.component';
   declarations: [WrapperComponent, HeaderComponent, NavComponent, ContentComponent, FooterComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    HeaderComponent,
+    NavComponent,
+    ContentComponent,
+    FooterComponent,
+    WrapperComponent
   ]
 })
 export class WrapperModule { }
